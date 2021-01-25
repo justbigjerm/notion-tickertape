@@ -1,33 +1,41 @@
-{
+ {
   "symbols": [
     {
-      "proName": "FOREXCOM:SPXUSD",
-      "title": "S&P 500"
+      "description": "GBP/JPY",
+      "proName": "FX_IDC:GBPJPY"
     },
     {
-      "proName": "FOREXCOM:NSXUSD",
-      "title": "Nasdaq 100"
+      "description": "GBP/AUD",
+      "proName": "FX_IDC:GBPAUD"
     },
     {
-      "proName": "TSX:TSX",
-      "title": "S&P/TSX Composite"
+      "description": "EUR/NZD",
+      "proName": "FX_IDC:EURNZD"
     },
     {
-      "description": "BTC",
-      "proName": "CAPITALCOM:BTCCAD"
+      "description": "EUR/JPY",
+      "proName": "FX_IDC:EURJPY"
     },
     {
-      "description": "ETH",
-      "proName": "CAPITALCOM:ETHCAD"
+      "description": "Dow",
+      "proName": "OANDA:US30USD"
     },
     {
-      "description": "USD/CAD",
-      "proName": "FX:USDCAD"
+      "description": "Gold",
+      "proName": "FX_IDC:XAUUSD"
+    },
+    {
+      "description": "BTC/USD",
+      "proName": "BITFINEX:BTCUSD"
+    },
+    {
+      "description": "XRP/USD",
+      "proName": "BITFINEX:XRPUSD"
     }
   ],
   "showSymbolLogo": true,
-  "colorTheme": "light",
-  "isTransparent": true,
-  "displayMode": "regular",
+  "colorTheme": "dark",
+  "isTransparent": false,
+  "displayMode": "adaptive",
   "locale": "en"
 }
